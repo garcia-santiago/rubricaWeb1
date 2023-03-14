@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffff;
+    font-family: 'Hind Vadodara', sans-serif;
+    color: #331B3B;
+}
+main > *{
+    margin-left: 3em; 
+    margin-right: 3em;
+}
+.titulo{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    font-size: 24px;
+    line-height: 28px;
+}
+.formElement{
+    font-family: 'Poppins', sans-serif;
+}
+.mainColorHalf{
+    color: rgba(51, 27, 59, 0.66);
+}
+a, a:link, a:visited{
+    color: #331B3B;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(113, 36, 136);
+}
+img{
+    width: 100%;
+}
+.botonPrincipal{
+    height: 66px;
+    width: 207px;
+    left: 50px;
+    top: 634px;
+    border-color: transparent;
+    border-radius: 10px;
+    background: #331B3B;
+    color: white;
+    font-weight: bold;
+}
+/* Nav */
+.navBar{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.containerLinks{
+    display: flex;
+    gap: 14px;
+}
+.containerTitulo{
+    margin-right: 80px;
+    text-align: center;
+}
+.containerRedes{
+    display: flex;
+    gap: 16px;
+}
+
+.containerSec1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 20px;
+}
+.containerSec2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 20px;
+}
+.colMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.5rem;
+}
+.parrafoMain{
+    font-family: Hind Vadodara;
+    font-size: 75px;
+    line-height: 87px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    font-weight: 500;
+}
+.parrafoMain2{
+    font-family: Hind Vadodara;
+    font-size: 48px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.containerSec3{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    background: #ECF7FF;
+    border-radius: 0px 400px 0px 0px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+.tarjetasSec3{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: 0.5rem;
+}
+.tarjetaSec3{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1em;
+    row-gap: 0.75em;
+    align-items: start;
+    background-color: #ffff;
+
+    padding-left: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: left;
+}
+.tarjetaSec3  > :nth-child(2){
+    font-weight: bold;
+}
+.tarjetaSec3  > :nth-child(3){
+    font-size: 12px;
+}
+.iconTarjeta{
+    height: 19.47px;
+    width: 33.47px;  
+}
